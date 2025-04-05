@@ -129,10 +129,6 @@ class Program
 
         Random random = new Random();
 
-
-
-        // Wypełnij planszę bombami.
-
         for (int i = 0; i < bombCount; i++)
 
         {
@@ -187,10 +183,7 @@ class Program
 
         }
 
-
-
-        /*??*/ displayBoard;
-
+        return displayBoard;
     }
 
 
